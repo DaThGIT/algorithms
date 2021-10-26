@@ -9,8 +9,9 @@ class leetCodeEasy{
             int[] posPals = {1221, 1111, 2020, 30491, 123213, 22344322, 21312412, 121};
             for (int j : posPals) {
                 System.out.println("\n x = " + j + "\n Palindrom? " + isPalindrome(j));    
-            }
+            }    
         }
+       
     }
     
     public static int reverse(int x){
